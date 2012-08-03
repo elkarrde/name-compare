@@ -18,6 +18,7 @@ object SharedJS extends StaticJS {
   , "jquery.validate"                    -> "1.9.0"
   , "jquery.validate-additional-methods" -> "1.9.0"
   , "jquery.fieldselection"              -> "0.1.1"
+  , "jquery.nouislider"           -> "1.1.7"
 
   , "knockout"         -> "2.1.0"
   , "knockout.mapping" -> "2.2.4"
