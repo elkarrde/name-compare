@@ -10,7 +10,7 @@
           <div class="controls">
               <label class="checkbox">
                 <input type="checkbox" id="transliteration" name="transliteration" value="Transliterate characters" checked="checked"/>
-                Transliterate characters <em>(remove diacritics when performing matching)</em>
+                Transliterate characters <span class="muted">(remove diacritics when performing matching)</span>
               </label>
             </div>
         </div>
@@ -20,7 +20,7 @@
           <div class="controls">
               <label class="checkbox">
                 <input type="checkbox" id="lowercasing" name="lowercasing" value="Match via lowercase" checked="checked" />
-                Match via lowercase <em>(ignore character case when matching)</em>
+                Match via lowercase <span class="muted">(ignore character case when matching)</span>
               </label>
             </div>
         </div>
@@ -40,7 +40,7 @@
 
         <div class="control-group">
           <label class="control-label" for="names">Names block<br />
-          (example: Joe, Doe)</label>
+          <span class="muted">example: Joe, Doe</span></label>
           <div class="controls">
             <textarea id="names" name="names" class="span8" rows="10" cols="40"><lift:ShowLastTest/></textarea>
           </div>
